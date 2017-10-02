@@ -14,9 +14,9 @@ export default Controller.extend({
         this.fetchingFeed = true;
         this.loadingMore = false;
         this.hasMore = false;
-        this.myCrates = [];
-        this.myFollowing = [];
-        this.myFeed = [];
+        this.myCrates = Ember.A([]);
+        this.myFollowing = Ember.A([]);
+        this.myFeed = Ember.A([]);
         this.myStats = 0;
     },
 
